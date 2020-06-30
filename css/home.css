@@ -1,0 +1,199 @@
+
+/*global*/
+*{
+  padding: 0px;
+    margin:auto;
+   overflow-x: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url(../images/warehouse.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.logo{
+    margin: 0px;
+}
+/*start header and nav*/
+.header{
+    background-image: url(../images/header.jpg);
+    height: 280px;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.header p{
+    color: white;
+    background-color: rgb(233, 124, 52);
+    font-size: 25px;
+    font-weight: 500;
+  
+
+}
+.myNavbar,.search{
+    background-color: rgb(34, 34, 34);
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+   margin-left: 20px;
+    color: wheat;
+    margin-top: 8px;
+    
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #5DADE2;  
+}
+.navbar-nav>li>a:hover{
+    color: rgb(180, 177, 177);
+    text-decoration: none; 
+}
+.as,.navbar-nav ul li i,.addserviceP{
+    color: #5DADE2;
+
+}
+.navbar-nav {
+  text-align: right; 
+}
+/*end header and nav*/
+/*start content 1*/
+.content{
+    border: solid 1px black;
+    background: rgba(28,40,51,.9);
+    font-size: 23px;
+    border-radius: 10px;
+}
+.border{
+    border: thin solid lightgray;
+}
+
+.content h2,p ,.aboutUs li {
+   text-align: center;
+    color:#B3B6B7;
+    margin-top: 15px;
+    
+}
+.content h2 , .signUp h2 , .aboutUs h2{
+    font-size: 35px;
+    color:wheat;
+    margin-bottom: 15px;
+}
+.spanBlock {
+    font-style: italic;
+    text-align: center;
+    display: block;
+    color: #5DADE2; 
+    
+}
+/*end content 1*/
+/* start SIGN UP */
+.sign{
+    position: relative;
+    
+    
+}
+.pic1 .btn, .pic2 .btn {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background-color: #212F3C;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+   
+}
+/* end SIGN UP */
+/*start about us*/
+.aboutUs li{
+    list-style: none;
+}
+/*end about us*/
+/*start footer*/
+footer{
+    background-color:  rgb(34, 34, 34);
+
+}
+
+footer h4 ,.copyright {
+    color:#5DADE2 ;
+    text-align: center ;
+}
+footer input{
+    border-radius: 10%;
+    text-align: center;
+  
+    
+
+}
+hr{
+    width: 90%;
+    text-align: center;
+    background-color: gray;
+   
+}
+.subscribe{
+    background-color:#5DADE2 ;
+    margin-top: 9px;
+
+}
+footer a{
+    
+    font-size: 23px;
+   
+}
+/*end footer*/
+/*start login page & signUp*/
+ label {
+  color: #B3B6B7;
+  
+}
+.login input , .signUp input ,textarea {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #2e3c49;
+
+}
+.submit{
+    font-weight: 600;
+    background-color: gray;
+    padding:8px 8px;
+    color: black;
+    font-size: 22px;
+}
+.form-group .form-check{
+text-align: center;
+margin: auto;
+}
+/*end login page & signUp*/
+/*start addService page*/
+
+.content2{
+    border: solid 1px whitesmoke;
+    background: rgba(46, 68, 73);
+    width: 80%;
+    text-align: center;
+}
+h4{
+    color: rgb(243, 209, 176);
+    font-size: 20PX;
+    display: inline;
+    
+    
+}
+.addSerP{
+    font-size: 16PX;
+    color: rgb(230, 174, 71);
+    display: inline;
+    
+}
+
+
+/*end addService page*/
+/*start warehouse page*/
+.search{
+    text-align: center;
+}
